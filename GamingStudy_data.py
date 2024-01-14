@@ -15,7 +15,7 @@ import seaborn as sns
 
 ####### Declarations of objects #######
 
-df = pd.read_csv('C:/Users/peded/Desktop/Davide/Documenti/FILE CSV/GamingStudy_data.csv')
+df = pd.read_csv('../FILE CSV/GamingStudy_data.csv')
 avr_age = df['Age'].mean() 
 avr_gad = df['GAD_T'].mean()
 gad = df['GAD_T']
